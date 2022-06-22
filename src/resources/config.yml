@@ -1,0 +1,27 @@
+# For Effect Types make sure to use these...
+#    https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# For Enchant Types make sure to use these...
+#    https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+
+Messages:
+  NotPlayer: '&4&lError: &cYou are not a player!'
+  NoPermission: '&4&lError: &cYou don''t have permission to use this command!'
+  PluginReloaded: '&e&lInfo: &aPlugin Reloaded'
+
+Items:
+  example:
+    Material: DIAMOND_BOOTS
+    Name: '&a&lRabbit Boots'
+    Lore:
+    - '&2Hop like a rabbit!'
+    - '&2Enjoy the bounces!'
+    Effects:
+    - 'JUMP|2|0' # EffectName;Level;DurationInSeconds - Leave Duration 0 for infinite time!
+    Enchants:
+    - 'ARROW_INFINITE|1'
+  example2:
+    Enabled: true
+    Material: DIAMOND_CHESTPLATE
+    Name: '&b&lLEL'
+    Effects:
+    - 'INVISIBILITY;2;0'

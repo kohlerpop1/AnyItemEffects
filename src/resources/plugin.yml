@@ -1,0 +1,9 @@
+main: com.kohlerpop1.ArmorEffectsMaven.Main
+name: ArmorEffectsMaven
+version: 1.0
+description: Main
+
+commands:
+  ae:
+    aliases: [ai, anyitemeffects]
+    description: Main ArmorEffects Command!
